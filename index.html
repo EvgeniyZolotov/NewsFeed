@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="NewsFeedApp">
+<head>
+    <script src="js/third-party/angular.js"></script>
+    <script type="text/javascript" src="js/third-party/angular-sanitize.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/third-party/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/third-party/modals.js"></script>
+
+    <script type="text/javascript" src="js/news-feed-app.js"></script>
+    <script type="text/javascript" src="js/news-controller.js"></script>
+    <script type="text/javascript" src="js/news-template.js"></script>
+    <script type="text/javascript" src="js/news-data.js"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+    <div class="header">
+        <h1 align="center"> The best news-feed you ever met !</h1>
+    </div>
+    <div class="advertisementLeft">
+        <h2>Here is the place for your advertisment</h2> 
+    </div>
+    <div class="advertisementRight">
+        <h2>Here is the place for your advertisment</h2>
+    </div>
+    <div class="content">
+        <div ng-controller="NewsController">
+            <div news-feed></div>
+        </div>
+    </div>
+</body>
+</html>

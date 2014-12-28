@@ -1,0 +1,63 @@
+
+
+.depict {
+	left: 0px;
+	width: 100%;
+}
+
+.depict p {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	text-overflow: clip;
+	overflow: hidden;
+	display: inline;
+}
+
+.depict a {
+	display: inline;
+}
+
+.imgSmall {
+	height: 180px;
+	width: 250px;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	margin: 0px 10px 0px 5px;
+}
+
+.imgBig {
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+	cursor: pointer;
+}
+
+.depict video {
+	height: 180px;
+	width: 250px;
+	float: right;
+	margin: 0px 5px 0px 10px;
+	border: solid;
+	border-width: 1px;
+}
+
+.depict object {
+	height: 180px;
+	width: 250px;
+	float: right;
+	border: solid;
+	border-width: 1px;
+}
+
+a:visited {
+    color: purple;
+}
+
+.morelink {
+	color: lightgrey;
+    display: inline;
+    text-decoration:none;
+    outline: none;
+}

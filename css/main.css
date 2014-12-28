@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 2px solid lightgrey;
+}
+
+.header {
+	max-height: 100px;
+	min-height: 100px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	border-bottom: 2px solid lightgrey;
+}
+
+.advertisementLeft {
+	float: left;
+	position: absolute;
+	left: 2px;
+	top: 101px;
+	width: 250px;
+	max-width: 250px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+}
+
+.advertisementRight {
+	float: right;
+	position: absolute;
+	right: 2px;
+	top: 101px;
+	width: 250px;
+	max-width: 250px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+}
+
+.content {
+	position: relative;
+	top: 0px;
+	margin-left: 250px;
+	margin-right: 250px;
+	color: black;
+	border-left: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+}

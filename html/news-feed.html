@@ -1,0 +1,11 @@
+<button id="prev" type="button" ng-click="prevN()" ng-disabled="prevDisabled()">Previous {{newsPerPage}}</button>
+<button id="next" type="button" ng-click="nextN()" ng-disabled="nextDisabled()">Next {{newsPerPage}}</button>
+<ul style="list-style: none; padding-left: 0px;">
+	<li ng-repeat="news in news_list.slice(newsOffset, newsPerPage + newsOffset)">
+		<div>
+			<news-template news-content="news"></news-template>
+		</div>
+	</li>
+</ul>
+<button id="prev" type="button" ng-click="prevN()" ng-disabled="prevDisabled()">Previous {{newsPerPage}}</button>
+<button id="next" type="button" ng-click="nextN()" ng-disabled="nextDisabled()">Next {{newsPerPage}}</button>
